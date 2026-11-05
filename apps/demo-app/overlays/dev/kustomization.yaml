@@ -6,4 +6,4 @@ resources:
 images:
 - name: demo-app
   newName: localhost:5001/demo-app
-  newTag: bf6ff6d
+  newTag: 65b7f02
