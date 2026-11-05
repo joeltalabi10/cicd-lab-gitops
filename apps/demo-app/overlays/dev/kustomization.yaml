@@ -2,8 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: demo
 resources:
-  - ../../base
+- ../../base
 images:
-  - name: demo-app
-    newName: localhost:5001/demo-app
-    newTag: bootstrap
+- name: demo-app
+  newName: localhost:5001/demo-app
+  newTag: 65b7f02
